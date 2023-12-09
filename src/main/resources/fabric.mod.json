@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "better-enderman-mod",
+	"version": "${version}",
+	"name": "Better Enderman Mod",
+	"description": "This Minecraft Mod aims at improving vanilla Enderman",
+	"authors": [
+		"Borsi"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/better-enderman-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.borsi.betterendermanmod.reg.BetterEndermanMod"
+		],
+		"client": [
+			"net.borsi.betterendermanmod.reg.BetterEndermanModClient"
+		],
+		"fabric-datagen": [
+			"net.borsi.betterendermanmod.reg.BetterEndermanModDataGenerator"
+		]
+	},
+	"mixins": [
+		"better-enderman-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.1",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
