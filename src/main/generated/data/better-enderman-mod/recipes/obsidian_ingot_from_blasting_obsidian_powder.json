@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "ender",
+  "ingredient": {
+    "item": "better-enderman-mod:obsidian_powder"
+  },
+  "result": "better-enderman-mod:obsidian_ingot"
+}

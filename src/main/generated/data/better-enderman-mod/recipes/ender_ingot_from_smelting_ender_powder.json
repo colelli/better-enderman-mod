@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "ender",
+  "ingredient": {
+    "item": "better-enderman-mod:ender_powder"
+  },
+  "result": "better-enderman-mod:ender_ingot"
+}
