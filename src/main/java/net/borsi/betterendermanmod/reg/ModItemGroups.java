@@ -17,6 +17,8 @@ public class ModItemGroups {
 
                         //--------------- BLOCKS ---------------//
                         //-- ORES --//
+                        entries.add(ModBlocks.ENDER_ORE);
+                        entries.add(ModBlocks.RAW_ENDER_BLOCK);
 
                         //-- BUILDING BLOCKS --//
 
@@ -28,6 +30,7 @@ public class ModItemGroups {
                         entries.add(ModItems.GOLD_POWDER);
                         entries.add(ModItems.OBSIDIAN_POWDER);
                         entries.add(ModItems.ENDER_POWDER);
+                        entries.add(ModItems.RAW_ENDER);
                         entries.add(ModItems.OBSIDIAN_INGOT);
                         entries.add(ModItems.ENDER_INGOT);
 

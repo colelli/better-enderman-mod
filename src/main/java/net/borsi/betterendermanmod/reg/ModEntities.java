@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModEntities {
 
-    public static EntityType<Enterman> ENTERMAN = Registry.register(Registries.ENTITY_TYPE, new Identifier(BetterEndermanMod.MOD_ID, "enterman"), FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, Enterman::new).dimensions(EntityDimensions.fixed(1.0f, 1.0f)).build());
+    public static EntityType<Enterman> ENTERMAN = Registry.register(Registries.ENTITY_TYPE, new Identifier(BetterEndermanMod.MOD_ID, "enterman"), FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, Enterman::new).dimensions(EntityDimensions.fixed(0.65f, 4.9f)).build());
 
     public static void registerModEntities(){
         BetterEndermanMod.LOGGER.info("["+BetterEndermanMod.MOD_ID+":MOD_ENTITIES] >>> Registering Mod Entities for "+BetterEndermanMod.MOD_ID);

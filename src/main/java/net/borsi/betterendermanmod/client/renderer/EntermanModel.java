@@ -31,11 +31,10 @@ public class EntermanModel extends GeoModel<Enterman> {
         CoreGeoBone head = getAnimationProcessor().getBone("head");
         if (head == null) return;
         if (head.getChildBones().isEmpty()) return;
-        CoreGeoBone headRotation = head.getChildBones().get(0);
-        if (headRotation == null) return;
 
         EntityModelData entityData = animationState.getData(DataTickets.ENTITY_MODEL_DATA);
-        headRotation.setRotX(entityData.headPitch() * MathHelper.RADIANS_PER_DEGREE);
-        headRotation.setRotY(entityData.netHeadYaw() * MathHelper.RADIANS_PER_DEGREE);
+        head.setRotX(entityData.headPitch() * MathHelper.RADIANS_PER_DEGREE);
+        head.setRotY(entityData.netHeadYaw() * MathHelper.RADIANS_PER_DEGREE);
     }
+
 }

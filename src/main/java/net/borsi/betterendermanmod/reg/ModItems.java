@@ -16,6 +16,8 @@ public class ModItems {
     public static final Item OBSIDIAN_POWDER = registerItem("obsidian_powder", new Item(new FabricItemSettings()));
     public static final Item ENDER_POWDER = registerItem("ender_powder", new Item(new FabricItemSettings()));
 
+    public static final Item RAW_ENDER = registerItem("raw_ender", new Item(new FabricItemSettings()));
+
     public static final Item OBSIDIAN_INGOT = registerItem("obsidian_ingot", new Item(new FabricItemSettings()));
     public static final Item ENDER_INGOT = registerItem("ender_ingot", new Item(new FabricItemSettings()));
 

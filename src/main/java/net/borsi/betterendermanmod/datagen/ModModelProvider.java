@@ -1,5 +1,6 @@
 package net.borsi.betterendermanmod.datagen;
 
+import net.borsi.betterendermanmod.reg.ModBlocks;
 import net.borsi.betterendermanmod.reg.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
@@ -16,8 +17,9 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         //blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.<BLOCK>);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ENDER_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_ENDER_BLOCK);
         blockStateModelGenerator.registerParentedItemModel(ModItems.ENTERMAN_SPAWN_EGG, ModelIds.getMinecraftNamespacedItem("template_spawn_egg"));
-
     }
 
     @Override
@@ -26,6 +28,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.GOLD_POWDER, Models.GENERATED);
         itemModelGenerator.register(ModItems.OBSIDIAN_POWDER, Models.GENERATED);
         itemModelGenerator.register(ModItems.ENDER_POWDER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_ENDER, Models.GENERATED);
         itemModelGenerator.register(ModItems.OBSIDIAN_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.ENDER_INGOT, Models.GENERATED);
     }

@@ -11,6 +11,7 @@ import software.bernie.geckolib.renderer.GeoEntityRenderer;
 public class EntermanRenderer extends GeoEntityRenderer<Enterman> {
     public EntermanRenderer(EntityRendererFactory.Context renderManager) {
         super(renderManager, new EntermanModel());
+        this.shadowRadius = 0.6f;
     }
 
     @Override
@@ -22,4 +23,5 @@ public class EntermanRenderer extends GeoEntityRenderer<Enterman> {
     public void render(Enterman entity, float entityYaw, float partialTick, MatrixStack poseStack, VertexConsumerProvider bufferSource, int packedLight) {
         super.render(entity, entityYaw, partialTick, poseStack, bufferSource, packedLight);
     }
+
 }

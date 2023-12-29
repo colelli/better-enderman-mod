@@ -1,5 +1,6 @@
 package net.borsi.betterendermanmod.datagen;
 
+import net.borsi.betterendermanmod.reg.ModBlocks;
 import net.borsi.betterendermanmod.reg.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
@@ -33,5 +34,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerBlasting(exporter, ENDER_INGOT_SMELTABLES, RecipeCategory.MISC, ModItems.ENDER_INGOT, 1.0f, DEFAULT_BLASTING_TIME, "ender");
 
         //offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.<ITEM>, RecipeCategory.BUILDING_BLOCKS, ModBlocks.<BLOCK>);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.RAW_ENDER, RecipeCategory.MISC, ModBlocks.RAW_ENDER_BLOCK);
     }
 }

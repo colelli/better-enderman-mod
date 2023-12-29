@@ -1,0 +1,15 @@
+// 1.20.4	2023-12-29T22:28:54.0353845	Better Enderman Mod/Model Definitions
+46e5ec9878d27ff125ce8ffc34eef0a349ed45f5 assets\better-enderman-mod\models\item\raw_ender.json
+76338d47a7af765f2dfbfa0bab5eb40a04c0180c assets\better-enderman-mod\models\item\obsidian_ingot.json
+db5d90fbc916b7a44ea36e26c431dd43c007f24a assets\better-enderman-mod\models\item\ender_powder.json
+4701c0e23bf3574c93d48c26770c4d59588cafe0 assets\better-enderman-mod\models\block\ender_ore.json
+ca08b11997421380d1c735358fd0145a88c8bf73 assets\better-enderman-mod\models\item\ender_ingot.json
+a5cf85b423e27ac122ef5ce9bb60779e1455270c assets\better-enderman-mod\models\item\obsidian_powder.json
+e6be32ad4df3b08b50e165e7b574eae98c205240 assets\better-enderman-mod\models\item\iron_powder.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets\better-enderman-mod\models\item\enterman_spawn_egg.json
+de90fb5e734cf15ab5c3347a37c31d535a740bfb assets\better-enderman-mod\models\block\raw_ender_block.json
+9970bf27c0f999a8ae2064526886a6f652fce3ac assets\better-enderman-mod\models\item\raw_ender_block.json
+828dcc1bfa46cef15b0b336e3a26a18728a972f5 assets\better-enderman-mod\models\item\gold_powder.json
+3928f41cba2781b97933ecdc0c6be194de34d4d2 assets\better-enderman-mod\blockstates\raw_ender_block.json
+0bd9b849a0aca53978e32e781a45fb7616d25cae assets\better-enderman-mod\blockstates\ender_ore.json
+d877ac5d919e2a4d3448d2a59b7b386e7d802545 assets\better-enderman-mod\models\item\ender_ore.json

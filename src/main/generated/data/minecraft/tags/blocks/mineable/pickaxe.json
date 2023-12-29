@@ -1,4 +1,7 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "better-enderman-mod:ender_ore",
+    "better-enderman-mod:raw_ender_block"
+  ]
 }
