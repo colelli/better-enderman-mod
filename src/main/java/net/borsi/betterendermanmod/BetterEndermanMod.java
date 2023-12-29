@@ -5,6 +5,7 @@ import net.borsi.betterendermanmod.reg.ModBlocks;
 import net.borsi.betterendermanmod.reg.ModEntities;
 import net.borsi.betterendermanmod.reg.ModItemGroups;
 import net.borsi.betterendermanmod.reg.ModItems;
+import net.borsi.betterendermanmod.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
@@ -27,6 +28,9 @@ public class BetterEndermanMod implements ModInitializer {
 		// Call to register alla Mod Entities
 		ModEntities.registerModEntities();
 		FabricDefaultAttributeRegistry.register(ModEntities.ENTERMAN, Enterman.setAttributes());
+
+		// Call to world generation
+		ModWorldGeneration.generateModWorldGen();
 	}
 
 }
